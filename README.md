@@ -34,7 +34,7 @@ import firebase from 'firebase'
 import 'firebase/firestore'
 
 const config = {
-  apiKey: 'AIzaSyAV0uvqD787UJ4fe_79MxN1EJFrbeE-SYE',
+  apiKey: 'PasteYourApiKey',
   authDomain: 'PasteYourAuthDomainHere',
   databaseURL: 'PasteYourDatabaseURLHere',
   projectId: 'PasteYouProjectIdHere',
