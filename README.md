@@ -53,3 +53,6 @@ Now, open the vue-crud folder in terminal and paste the command bellow to instal
 
 Well, now you just have to use it in your project.
 
+A live demo cant be found in 
+
+https://nuxtcrud.firebaseapp.com
