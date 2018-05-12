@@ -1,27 +1,27 @@
 # vue-crud
-Simple VueJS CRUD using Firebas Firestore.
+Simple VueJS CRUD using Firebase Firestore.
 
 Front-end framework used: Vuetify https://vuetifyjs.com/en/
 
-## Cloning the respository
+## Cloning the repository
 
-First of all, you need clone this repository, atfer do this enter in the folder with:
+First of all, you'll need  to clone this repository, after doing this access the folder with:
 
 ` cd vue-crud `
 
-so, run the comand bellow to install all dependences of the project :
+Then, run the command below to install all dependencies for the project (make sure you have node.js installed):
 
 ` npm install `
 
 ## Setup Firebase
 
-Now you need to create a Firebase account, do this in https://firebase.google.com , you can use your regular Google account .
+Now you need to create a Firebase account here https://firebase.google.com. You can use your regular Google account.
 
-Now, create a project, go to Project Overview and click in `"Add Firebase to your web app"`, as bellow
+Now, create a project, go to Project Overview and click in `"Add Firebase to your web app"`, as below:
 
 ![alt add](img/add.png)
 
-Copy the setting as bellow:
+Copy the setting as below:
 
 ![alt settings](img/setting.png)
 
@@ -47,12 +47,12 @@ const firebaseapp = firebase.initializeApp(config)
 
 export default firebaseapp.firestore()
 ```
-Now, open the vue-crud folder in terminal and paste the command bellow to install the Firenase dependence:
+Now, open the vue-crud folder in terminal and paste the command below to install the Firebase dependencie:
 
 `npm install firebase --save`
 
-Well, now you just have to use it in your project.
+If you got here without problems, go on and have fun using it in your project.
 
-A live demo cant be found in 
+A live demo can be found at: 
 
 https://nuxtcrud.firebaseapp.com
