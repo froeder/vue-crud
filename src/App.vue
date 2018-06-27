@@ -34,15 +34,16 @@ export default {
       drawer: null,
       items: [
         {icon: 'home', title: 'Home', linkpath: '/'},
-        {icon: 'add_circle', title: 'Users',linkpath: '/users'}
+        {icon: 'add_circle', title: 'Users',linkpath: '/users'},
+        {icon: 'info', title: 'Auth Test',linkpath: '/auth_test'}
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'VUE CRUD'
+      title: 'VUECRUD'
     }
   },
-  name: 'VUE CRUD',
+  name: 'VUECRUD',
   methods: {
       linkto(pathname) {
           this.$router.push({ path: pathname })

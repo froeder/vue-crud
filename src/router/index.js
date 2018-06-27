@@ -5,6 +5,7 @@ import AddUser from '../components/Users/AddUser'
 import EditUser from '../components/Users/EditUser'
 import ShowDetails from '../components/Users/ShowDetails'
 import Users from '../components/Users/Users'
+import AuthTest from '../components/Tests/AuthTest.vue'
 
 Vue.use(Router)
 
@@ -29,5 +30,9 @@ export default new Router({
         path: '/show_details/:user_id',
         name: 'ShowDetails',
         component: ShowDetails
+    }, {
+        path: '/auth_teste',
+        name: 'AuthTest',
+        component: AuthTest
     }]
 })
